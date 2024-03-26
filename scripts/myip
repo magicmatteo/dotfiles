@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Get public IP address
+PUBLIC_IP=$(curl -s ifconfig.me)
+
+# Print public IP address
+echo "$PUBLIC_IP added to clipboard"
+
+echo $PUBLIC_IP | xclip -r -sel clip

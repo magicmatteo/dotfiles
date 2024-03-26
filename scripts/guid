@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Generate random GUID
+GUID=$(uuidgen)
+
+# Add guid to clipboard
+echo $GUID | xclip -r -sel clip
+
+# Print GUID
+echo "$GUID"

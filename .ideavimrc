@@ -1,0 +1,22 @@
+set which-key
+set ideajoin
+set idearefactormode=keep
+
+Plugin 'easymotion/vim-easymotion'
+Plugin 'preservim/nerdtree'
+Plugin 'machakann/vim-highlightedyank'
+
+let mapleader = " "
+
+map <leader>e :NERDTreeToggle<CR>
+set NERDTree
+let g:NERDTreeMapActivateNode='l'
+let g:NERDTreeMapJumpParent='h'
+
+" actions
+map L <Action>(NextTab)
+map H <Action>(PreviousTab)
+nmap <leader>i <action>(Generate)
+nmap <leader>g <action>(Git.Menu)
+map <leader>bd :action CloseEditor<CR>
+noremap <leader><space> :action SearchEverywhere<CR>
