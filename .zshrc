@@ -72,7 +72,7 @@ alias tf="terraform"
 alias ez="nvim ~/.zshrc"
 alias cl="clear"
 alias untar="tar -zxvf"
-alias docker="nerdctl"
+#alias docker="nerdctl"
 alias nc="sudo nerdctl"
 alias copy="xclip -sel clip"
 alias acd="argocd --insecure"
@@ -82,6 +82,7 @@ alias v="nvim"
 alias sb="cd $SECOND_BRAIN"
 alias in="cd $SECOND_BRAIN/0-INBOX/"
 alias df="cd $DOTFILES"
+alias ll="ls -la"
 
 # Below line allows us to load functions from the path specified
 # fpath=( "/home/matt/.zsh_custom/functions" "${fpath[@]}" )
@@ -91,6 +92,6 @@ autoload -U +X bashcompinit && bashcompinit
 autoload -U compinit; compinit
 
 # NVM (node version manager) required
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# export NVM_DIR="$HOME/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

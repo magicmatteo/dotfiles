@@ -1,0 +1,10 @@
+[window]
+decorations = "Transparent"
+opacity = 0.9
+blur = true
+startup_mode = "Fullscreen"
+decorations_theme_variant = "Dark"
+
+[font]
+normal = { family = "CaskaydiaCove Nerd Font", style = "Regular" }
+size = 18
